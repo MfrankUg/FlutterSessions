@@ -7,7 +7,11 @@ void main() {
   print("Hello_world");
 
   // Dart variables
-  int age = 25;
-  age = 30;
+  int age;  //variable declaration
+  age = 25;  // variable initialization 
   print(age);
+
+  // variable initialization and declaration in one line
+  String name = "John";
+  print(name);
 }
