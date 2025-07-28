@@ -7,7 +7,7 @@ void main() {
   print("Hello_world");
 
   // Dart variables
-  int age; //variable declaration
+  int age; // variable declaration
   age = 25; // variable initialization
   print(age);
 
@@ -15,8 +15,13 @@ void main() {
   String name = "John";
   print(name);
 
-  //conventional variable declaration
+  // conventional variable declaration
   int galaxies = 15;
   galaxies = 16; // variable reassignment
   print(galaxies);
+
+  // Dart constants
+  final int daysOfYear = 365;
+  print(daysOfYear);
+  // daysOfYear = 366; // This will cause an error as it's a constantvariable.
 }
