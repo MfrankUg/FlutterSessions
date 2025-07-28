@@ -5,4 +5,9 @@ void main() {
    It can span multiple lines and is useful for providing detailed explanations.
   */
   print("Hello_world");
+
+  // Dart variables
+  int age = 25;
+  age = 30;
+  print(age);
 }
