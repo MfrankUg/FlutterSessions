@@ -13,6 +13,7 @@ void main() {
 
   // variable initialization and declaration in one line
   String name = "John";
+  print("The name of the person is:");
   print(name);
 
   // conventional variable declaration
