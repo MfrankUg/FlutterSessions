@@ -38,4 +38,21 @@ void main() {
   int? number;
   number = null;
   print("this is a nullable value: $number");
+
+  // TODO: Declare a double variable to store the average temperature on Earth - 15 degrees Celsius
+  double averageTemp = 15.0;
+  // TODO: Declare an int variable to store the number of days in a year - 365
+  int daysInYear = 365;
+  // TODO: Print the average temperature on Earth in °C
+  print(averageTemp);
+  // TODO: Print the number of days in a year
+  print(daysInYear);
+  // TODO: Declare a boolean variable to store the fact that physics is consistent - it is true
+  bool isPhysicsConsistent = true;
+ 
+  // TODO: Use a String variable to represent the approximate value of the constant pi - '3.14'
+  final String approxiValue = "3.14";
+
+
+
 }
