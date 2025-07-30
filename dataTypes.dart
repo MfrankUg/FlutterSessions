@@ -18,4 +18,6 @@
 void main(){
   int daysInWeek = 7; // Integer data type
   print("Days in a week: $daysInWeek");
+  double pi = 3.14159; // Floating-point number data type
+  print("Value of pi: $pi");
 }
