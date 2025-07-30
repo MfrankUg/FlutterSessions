@@ -49,10 +49,9 @@ void main() {
   print(daysInYear);
   // TODO: Declare a boolean variable to store the fact that physics is consistent - it is true
   bool isPhysicsConsistent = true;
- 
+  print(isPhysicsConsistent);
+
   // TODO: Use a String variable to represent the approximate value of the constant pi - '3.14'
   final String approxiValue = "3.14";
-
-
-
+  print(approxiValue);
 }
