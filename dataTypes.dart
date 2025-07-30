@@ -14,3 +14,8 @@
 // Void - Represents the absence of a value
 // Type - Represents the type of a variable or expression
 // Null safety - Ensures that variables and expressions are not assigned null values
+
+void main(){
+  int daysInWeek = 7; // Integer data type
+  print("Days in a week: $daysInWeek");
+}
