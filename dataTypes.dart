@@ -20,4 +20,10 @@ void main(){
   print("Days in a week: $daysInWeek");
   double pi = 3.14159; // Floating-point number data type
   print("Value of pi: $pi");
+  String greeting = "Hello, Dart!"; // String data type
+  print(greeting);
+  bool isDartFun = true; // Boolean data type
+  print("Is Dart fun? $isDartFun");
+  bool isLearningFun = false; // Boolean data type
+  print("Is learning fun? $isLearningFun");
 }
