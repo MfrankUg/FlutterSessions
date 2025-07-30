@@ -28,6 +28,14 @@ void main() {
   print("Is learning fun? $isLearningFun");
   /*String unknown = null;
   print("Unknown value: $unknown"); // error: The non-nullable variable 'unknown'.
-  */ 
+  */
 
+  // nullability
+  String? unknown;
+  unknown = null;
+  print(unknown);
+
+  int? number;
+  number = null;
+  print("this is a nullable value: $number");
 }
