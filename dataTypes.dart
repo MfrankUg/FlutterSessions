@@ -1,4 +1,4 @@
-// Darts building blocks for data types 
+// Darts building blocks for data types
 // Core data types used in Dart programming
 // int  - Represents integer values
 // double - Represents floating-point numbers with decimal points
@@ -15,7 +15,7 @@
 // Type - Represents the type of a variable or expression
 // Null safety - Ensures that variables and expressions are not assigned null values
 
-void main(){
+void main() {
   int daysInWeek = 7; // Integer data type
   print("Days in a week: $daysInWeek");
   double pi = 3.14159; // Floating-point number data type
@@ -26,4 +26,8 @@ void main(){
   print("Is Dart fun? $isDartFun");
   bool isLearningFun = false; // Boolean data type
   print("Is learning fun? $isLearningFun");
+  /*String unknown = null;
+  print("Unknown value: $unknown"); // error: The non-nullable variable 'unknown'.
+  */ 
+
 }
