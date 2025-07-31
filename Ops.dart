@@ -13,4 +13,9 @@ void main() {
 
   // Use of boleans
   int currentFlows = 20;
+  int permittedFlows = 10;
+  bool isCount =  currentFlows > permittedFlows; // Boolean operation
+  print(isCount); // Output: true
+  bool isCount2 =  currentFlows < permittedFlows; // Boolean operation
+  print(isCount2); // Output: false
 }
