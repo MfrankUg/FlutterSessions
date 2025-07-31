@@ -9,5 +9,5 @@ void main() {
   print(teamScoreA > teamScoreB); // Greater than operation
   print(teamScoreA < teamScoreB); // Less than operation
   print(teamScoreA >= teamScoreB); // Greater than or equal to operation
-  print(teamScoreA <= teamScoreB); // Less than or equal to operation
+  print(teamScoreA <= teamScoreB); // Less than or equal to operation.
 }
