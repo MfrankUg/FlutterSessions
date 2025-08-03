@@ -28,4 +28,15 @@ void main() {
   print("a != b: $isNotEqual"); // Output: a != b: true
   // The == operator checks for equality, while the != operator checks for inequality.
   // These operators are often used in conditional statements to compare values and make decisions based on the results.
+
+
+   // Scenario: Determining if a student's test score meets the passing criteria
+  int passingScore = 60; // minimum score required to pass the test
+  int studentScore = 48; // student's actual score
+
+  // TODO: Create a new boolean variable "isScoreTooLow" and update the print statement accordingly
+  bool hasPassed = studentScore >= passingScore;
+  print("Has the student passed the test?");
+  print(hasPassed);
+  // If studentScore is 48, it will print: Has the student passed the test? false
 }
