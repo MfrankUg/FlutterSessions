@@ -38,5 +38,5 @@ void main() {
   bool hasPassed = studentScore >= passingScore;
   print("Has the student passed the test?");
   print(hasPassed);
-  // If studentScore is 48, it will print: Has the student passed the test? false
+  // If studentScore is 48, it will print: Has the student passed the test? false. 
 }
