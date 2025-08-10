@@ -28,4 +28,14 @@ void main() {
   print("The percentage of valid votes is: $percentValidity");
   print("The rounded value is:");
   print(percentValidity.toInt());
+
+  // variables representing the current storage usage in megabytes and the maximum allowed before cleanup.
+  int currentStorageUsage = 7500;
+  int maxStorageBeforeCleanup = 7500;
+  bool backupComplete = true;
+  // Check if current storage usage exceeds or equals the limit AND if the backup is complete.
+  bool isCleanup =
+      currentStorageUsage >= maxStorageBeforeCleanup && backupComplete;
+  print("Is cleanup required? $isCleanup");
+  //
 }
