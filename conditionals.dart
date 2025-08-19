@@ -5,10 +5,20 @@ void main() {
   // Check if the oxygen level is above 70 and print perfectly breathable
   if (oxygenLevel > 70) {
     print("The oxygen level of $oxygenLevel is prefectly breathable.");
-  } else if (oxygenLevel > 50 ) {
+  } else if (oxygenLevel > 50) {
     print("The oxygen level of $oxygenLevel is breathable.");
-  }
-  else {
+  } else {
     print("The oxygen level of $oxygenLevel is not breathable.");
+  }
+
+  // More on if statements
+
+  String weather = "sunny";
+  if (weather == "sunny") {
+    print("It is a drying season.");
+  } else if (weather == "rainy") {
+    print("It is a wet season and we should expect floods.");
+  } else {
+    print("The weather is unpredictable.");
   }
 }
