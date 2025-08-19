@@ -39,6 +39,6 @@ void main() {
       "please ensure cooling, dusting and cleaning the room to keep the coffee clean and safe.",
     );
   } else {
-    print("The warehouse is under normal conditions");
+    print("The warehouse is under normal conditions of $temperature c, $humidity %, $dustLevel mg/m3");
   }
 }
